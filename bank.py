@@ -19,7 +19,6 @@ def main():
             if withdraw > balance:
                 print("Insufficient funds")
                 print("Balance: ${:.2f}".format(balance), sep="")
-                pass
             else:
                 balance = balance - withdraw
                 print("New balance: ${:.2f}".format(balance), sep="")
