@@ -25,7 +25,7 @@ def main():
                 print("New balance: ${:.2f}".format(balance), sep="")
             pass
         elif choice == "3":
-            print("${:.2f}".format(balance), sep="")
+            print("Current balance: ${:.2f}".format(balance), sep="")
             pass
         elif choice == "4":
             print("Goodbye")
